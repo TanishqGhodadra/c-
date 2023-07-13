@@ -45,11 +45,11 @@ class market
 	            	{
 	  					cout << "\n\n\n\n\t\t\t\t WELCOM TO OUR SYSTEM \n\n\n\n";
 	  	
-	  					cout << "1 => ";
-	  					cout << "2 => ";
-	  					cout << "3 => ";
-	  					cout << "4 => ";
-	  					cout << "5 => \n";
+	  					cout << "1 => vegitable \n ";
+	  					cout << "2 => electroinc \n";
+	  					cout << "3 => frutes \n";
+	  					cout << "4 => stationery \n";
+	  					cout << "5 => grocery \n";
 	  					cout << "6 => EXIT\n\n\n";
 	  		
 	  					cout << "ENTER YOUR CHOICE : \n";
@@ -58,7 +58,7 @@ class market
 	  					switch(choice)
 	  					{
 	  						case 1:
-	  								cout << "1) Item_number:\t";
+	  								cout << "1) Item_number: \t";
 									cin >> number;
 									cout << "2) Item_name:\t";
 									cin >> name;
@@ -138,25 +138,4 @@ int main()
 	S.verification();
 	S.io();
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
